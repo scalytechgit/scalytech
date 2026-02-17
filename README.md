@@ -41,10 +41,12 @@ projeto/
 
 PARA CRIAR PROJETO USANDO VITE, CRIAR APENAS A PASTA DO PROJETO E USAR OS COMANDOS ABAIXO:
 
+```bash
 npm create vite@latest NOMEDOPROJETO -- --template react-ts
 cd NOMEDOPROJETO
 npm install
 npm run dev
+```
 
 ---
 
