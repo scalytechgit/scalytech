@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
-        <img className="logo" src="/images/scalytech-logo.png" alt="ScalyTech Logo" />
+        <img className="logo" src={`${import.meta.env.BASE_URL}images/logo.jpeg`} alt="ScalyTech Logo" />
 
         <nav className="nav">
           <a href="#services">Serviços</a>
