@@ -1,0 +1,73 @@
+/* src/components/Hero.css */
+.hero {
+  height: 100vh;
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  background: #000;
+}
+
+.hero.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-tag {
+  color: #00c8ff; /* azul tecnologia */
+  letter-spacing: 3px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin: 20px 0;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.hero h1 span {
+  background: linear-gradient(90deg, #00c8ff, #00ff99, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  color: #aaa;
+  max-width: 500px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  padding: 14px 28px;
+  border: 1px solid #00ff99;
+  color: #00ff99;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #00ff99;
+  color: #000;
+}
+
+.hero-rgb-line {
+  position: absolute;
+  bottom: 40px;
+  left: 8%;
+  width: 140px;
+  height: 3px;
+  background: linear-gradient(90deg, #00c8ff, #00ff99, #ffffff);
+}
