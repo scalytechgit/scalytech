@@ -9,7 +9,7 @@ import { scrollReveal } from '../utils/scroll'
 
 export default function Home() {
   useEffect(() => {
-    scrollReveal() // inicializa animações de reveal
+   scrollReveal() 
   }, [])
 
   return (
