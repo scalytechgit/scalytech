@@ -16,20 +16,20 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'FIOR DI FORNO',
-      hoverTitle: 'Pizzaria • E-commerce',
+      title: 'E-commerce Google Sheets',
+      hoverTitle: 'E-commerce',
       image: '/projects/FIOR-DI-FORNO/preview.jpg',
       link: '/projects/FIOR-DI-FORNO/index.html'
     },
     {
-      title: 'Sistema Web',
-      hoverTitle: 'Loja Virtual • HTML • CSS • JS',
+      title: 'Atendimento Automático',
+      hoverTitle: 'ChatBot',
       image: '/projects/ecommerce/preview.jpg',
       link: '/projects/ecommerce/index.html'
     },
     {
-      title: 'Dashboard',
-      hoverTitle: 'Dashboard Interativo • Frontend',
+      title: 'Mensagem Automática de Contato',
+      hoverTitle: 'Dashboard Interativo • Selenium',
       image: '/projects/dashboard/preview.jpg',
       link: '/projects/dashboard/index.html'
     }
