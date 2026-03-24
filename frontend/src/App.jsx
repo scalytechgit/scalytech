@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/scalytech">
       <Header />
 
       <Routes>
