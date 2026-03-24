@@ -16,21 +16,21 @@ export default function Home() {
     <main>
       <Hero />
 
-      <section>
+      <section id="services">
         <Services />
       </section>
 
-      <section>
+      <section id="products">
         <Products />
       </section>
 
       <GradientDivider />
 
-      <section>
+      <section id="projects">
         <Projects />
       </section>
 
-      <section>
+      <section id="contact">
         <Contact />
       </section>
     </main>
