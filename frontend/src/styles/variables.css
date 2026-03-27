@@ -1,66 +1,66 @@
 :root {
+
   /* =========================
      Base
   ========================= */
+
   --black: #000000;
   --white: #ffffff;
 
   /* =========================
-     Neutros (UI / fundos)
+     Neutros (tema escuro)
   ========================= */
-  --gray-950: #0F1A24; /* azul-noite profundo, substituindo o preto/puxado para cinza */
-  --gray-900: #111827;
-  --gray-800: #1f2937;
-  --gray-700: #374151;
-  --gray-500: #6b7280;
-  --gray-300: #d1d5db;
+
+  --gray-950: #050505;
+  --gray-900: #0f0f0f;
+  --gray-800: #1a1a1a;
+  --gray-700: #2a2a2a;
+  --gray-600: #3a3a3a;
+  --gray-500: #777777;
+  --gray-300: #cfcfcf;
 
   /* =========================
-     Cores principais (Scaly)
+     Cores da Marca (Scalytech)
   ========================= */
-  --blue-primary: #0ea5e9;   /* azul tech */
-  --blue-dark: #0284c7;
-  --green-primary: #22c55e;  /* verde crescimento */
-  --green-dark: #16a34a;
+
+  --brand-blue: #3b82f6;
+  --brand-blue-dark: #2563eb;
+
+  --brand-green: #22c55e;
+  --brand-green-dark: #16a34a;
 
   /* =========================
-     Gradientes
+     Gradientes da Marca
   ========================= */
-  --gradient-primary: linear-gradient(
+
+  --brand-gradient: linear-gradient(
     90deg,
-    var(--blue-primary),
-    var(--green-primary)
+    var(--brand-blue),
+    var(--brand-green)
   );
 
-  --gradient-soft: linear-gradient(
+  --brand-gradient-soft: linear-gradient(
     135deg,
-    rgba(14, 165, 233, 0.15),
-    rgba(34, 197, 94, 0.15)
+    rgba(59,130,246,0.15),
+    rgba(34,197,94,0.15)
   );
 
   /* =========================
      Tipografia
   ========================= */
-  --font-main: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', sans-serif;
+
+  --font-main: 'Inter', system-ui, sans-serif;
 
   /* =========================
-     Transições & animações
+     Transições
   ========================= */
+
   --transition-fast: 0.25s ease;
-  --transition-smooth: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 
   /* =========================
      Layout
   ========================= */
-  --container-width: 1200px;
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
 
-  /* =========================
-     Sombras (clean / tech)
-  ========================= */
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
-  --shadow-strong: 0 20px 50px rgba(0, 0, 0, 0.15);
+  --container-width: 1200px;
 }

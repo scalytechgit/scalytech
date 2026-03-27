@@ -1,37 +1,48 @@
 import Hero from '../components/Hero'
 import Services from '../components/Services'
-import Products from '../components/Products'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import GradientDivider from '../components/GradientDivider'
-import { useEffect } from 'react'
-import { scrollReveal } from '../utils/scroll'
+import Pricing from '../components/Pricing'
+import Testimonials from '../components/Testimonials'
+import RGBLine from '../components/RGBLine'
+import CookieBanner from '../components/CookieBanner'
 
 export default function Home() {
-  useEffect(() => {
-   scrollReveal() 
-  }, [])
-
   return (
     <main>
+      {/* HERO */}
       <Hero />
 
-      <section id="services">
+      {/* SERVICES */}
+      <section>
         <Services />
       </section>
 
-      <section id="products">
-        <Products />
-      </section>
+      {/* SEPARADOR RGB */}
+      <RGBLine width={240} center />
 
-      <GradientDivider />
-
-      <section id="projects">
+      {/* PROJECTS */}
+      <section>
         <Projects />
       </section>
 
-      <section id="contact">
+      {/* PRICING */}
+      <section>
+        <Pricing />
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section>
+        <Testimonials />
+      </section>
+
+      {/* CONTACT */}
+      <section>
         <Contact />
+      </section>
+      {/* Cookie */}
+      <section>
+        <CookieBanner />
       </section>
     </main>
   )
