@@ -34,7 +34,7 @@ export default function Header() {
 
           <a href="#projects">Projetos</a>
 
-          <a href="#pricing">Orçamento</a>
+          <a href="#orcamento">Orçamento</a>
 
           <a href="#contact" className="cta">
             Falar conosco
