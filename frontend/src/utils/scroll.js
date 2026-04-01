@@ -5,17 +5,22 @@ export function scrollReveal(
 ) {
   const elements = document.querySelectorAll(selector)
 
+  if (!elements.length) return
+
   const observer = new IntersectionObserver(
     (entries) => {
-      entries.forEach(entry => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add(className)
           observer.unobserve(entry.target)
         }
       })
     },
-    { threshold }
+    {
+      threshold
+    }
   )
 
-  elements.forEach(el => observer.observe(el))
+  // observar cada elemento
+  elements.forEach((el) => observer.observe(el))
 }

@@ -1,14 +1,14 @@
-/* src/components/Hero.css */
 .hero {
-  height: 100vh;
+  margin-top: 80px;
+  min-height: 100vh;
   padding: 0 8%;
   display: flex;
   align-items: center;
   position: relative;
+
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-  background: #000;
+  transition: 0.8s ease;
 }
 
 .hero.show {
@@ -17,57 +17,131 @@
 }
 
 .hero-content {
-  max-width: 700px;
+  max-width: 720px;
 }
+
+/* TAG SUPERIOR */
 
 .hero-tag {
-  color: #00c8ff; /* azul tecnologia */
+  color: var(--gray-500);
   letter-spacing: 3px;
   font-size: 0.75rem;
-  text-transform: uppercase;
-  font-weight: 500;
 }
+
+/* TITULO */
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   margin: 20px 0;
   line-height: 1.1;
-  color: #ffffff;
 }
 
+/* GRADIENTE SCALYTECH */
+
 .hero h1 span {
-  background: linear-gradient(90deg, #00c8ff, #00ff99, #ffffff);
+  background: linear-gradient(
+    90deg,
+    #3b82f6,
+    #22c55e
+  );
+
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/* DESCRIÇÃO */
+
 .hero p {
-  color: #aaa;
-  max-width: 500px;
+  color: var(--gray-400);
+  max-width: 520px;
   margin-bottom: 40px;
   line-height: 1.6;
 }
 
+/* BOTÃO */
+
 .hero-btn {
-  padding: 14px 28px;
-  border: 1px solid #00ff99;
-  color: #00ff99;
-  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;
+  padding: 14px 30px;
+
+  border-radius: 8px;
+
   text-decoration: none;
-  border-radius: 6px;
-  transition: all 0.3s ease;
+
+  color: white;
+
+  background: linear-gradient(
+    90deg,
+    #3b82f6,
+    #22c55e
+  );
+
+  transition: var(--transition-fast);
 }
 
 .hero-btn:hover {
-  background: #00ff99;
-  color: #000;
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(59,130,246,0.3),
+    0 8px 20px rgba(34,197,94,0.2);
 }
+
+/* LINHA DECORATIVA */
 
 .hero-rgb-line {
   position: absolute;
   bottom: 40px;
   left: 8%;
-  width: 140px;
+
+  width: 120px;
   height: 3px;
-  background: linear-gradient(90deg, #00c8ff, #00ff99, #ffffff);
+
+  background: linear-gradient(
+    90deg,
+    #3b82f6,
+    #22c55e
+  );
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: auto;
+    padding: 112px 8% 72px;
+    align-items: flex-start;
+  }
+
+  .hero-tag {
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+    margin: 16px 0;
+  }
+
+  .hero p {
+    font-size: 0.98rem;
+    margin-bottom: 28px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hero-rgb-line {
+    bottom: 28px;
+    width: 88px;
+  }
+
 }

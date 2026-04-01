@@ -1,8 +1,8 @@
-// src/components/Hero.jsx
 import './Hero.css'
 import { useEffect } from 'react'
 
 export default function Hero() {
+
   useEffect(() => {
     const hero = document.querySelector('.hero')
     hero.classList.add('show')
@@ -10,25 +10,30 @@ export default function Hero() {
 
   return (
     <section className="hero">
+
       <div className="hero-content">
-        <span className="hero-tag">SCALYTECH • 2026</span>
+
+        <span className="hero-tag">SCALYTECH • SOLUÇÕES TECNOLÓGICAS</span>
 
         <h1>
-          Crescimento estruturado <br />
-          <span>com tecnologia que automatiza e escala</span>
+          Tecnologia que impulsiona<br />
+          <span>empresas e projetos digitais</span>
         </h1>
 
         <p>
-          Desenvolvemos sistemas web, SaaS e automações inteligentes que otimizam processos,
-          aumentam eficiência e garantem escalabilidade para empresas digitais maduras.
+          Desenvolvemos sistemas web, sites profissionais, automações
+          e soluções digitais que ajudam empresas a crescer com
+          eficiência, performance e inovação.
         </p>
 
-        <a href="#contact" className="hero-btn">
-          Vamos conversar
+        <a href="#orcamento" className="hero-btn">
+          Solicitar orçamento
         </a>
+
       </div>
 
       <div className="hero-rgb-line"></div>
+
     </section>
   )
 }

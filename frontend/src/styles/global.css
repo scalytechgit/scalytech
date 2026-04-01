@@ -1,10 +1,10 @@
-/* =========================
-   Base
-========================= */
-
 body {
-  background-color: var(--gray-950); /* fundo escuro para identidade tech */
-  color: var(--gray-300); /* texto mais suave e legível */
+  background:
+    radial-gradient(circle at 20% 20%, rgba(59,130,246,0.08), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(34,197,94,0.08), transparent 40%),
+    var(--gray-950);
+
+  color: var(--gray-300);
   font-family: var(--font-main);
   line-height: 1.6;
 }
@@ -13,73 +13,54 @@ main {
   overflow-x: hidden;
 }
 
-/* =========================
-   Containers
-========================= */
-
+/* Containers */
 .container {
   max-width: var(--container-width);
-  margin-inline: auto;
-  padding-inline: clamp(1.5rem, 6vw, 8%);
+  margin: auto;
+  padding: 0 8%;
 }
 
-/* =========================
-   Tipografia
-========================= */
+/* Títulos */
 
 h1,
 h2,
 h3 {
   font-weight: 600;
-  letter-spacing: -0.02em;
-  color: var(--white); /* reforça contraste com fundo escuro */
+  color: var(--white);
 }
 
 h1 {
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  line-height: 1.15;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
 }
 
 h2 {
-  font-size: clamp(1.9rem, 4vw, 2.4rem);
-  line-height: 1.2;
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
 }
 
 h3 {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
 }
+
+/* Parágrafos */
 
 p {
-  color: var(--gray-300); /* deixa uniforme com o resto do site */
-  max-width: 70ch;
+  color: var(--gray-500);
 }
 
-/* =========================
-   Links
-========================= */
+/* Links */
 
 a {
-  color: var(--blue-primary);
+  color: inherit;
   text-decoration: none;
-  transition: 0.3s ease;
 }
 
-a:hover {
-  color: var(--green-primary);
-}
-
-/* =========================
-   Seções
-========================= */
+/* Seções */
 
 section {
   position: relative;
-  padding-block: clamp(4rem, 10vw, 8rem);
 }
 
-/* =========================
-   Scrollbar (Chrome / Edge)
-========================= */
+/* Scrollbar */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -90,23 +71,17 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    180deg,
-    var(--blue-primary),
-    var(--green-primary)
-  );
-  border-radius: 8px;
+  background: var(--gray-700);
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  filter: brightness(1.1);
+  background: var(--brand-blue);
 }
 
-/* =========================
-   Seleção de texto
-========================= */
+/* Seleção de texto */
 
 ::selection {
-  background: rgba(34, 197, 94, 0.35);
-  color: var(--gray-950);
+  background: var(--brand-blue);
+  color: var(--white);
 }
