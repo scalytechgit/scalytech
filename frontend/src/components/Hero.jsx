@@ -16,14 +16,14 @@ export default function Hero() {
         <span className="hero-tag">SCALYTECH • SOLUÇÕES TECNOLÓGICAS</span>
 
         <h1>
-          Tecnologia que impulsiona<br />
-          <span>empresas e projetos digitais</span>
+          Tecnologia que automatiza,<br />
+          <span>cresce e escala.</span>
         </h1>
 
         <p>
-          Desenvolvemos sistemas web, sites profissionais, automações
-          e soluções digitais que ajudam empresas a crescer com
-          eficiência, performance e inovação.
+          Desenvolvemos sistemas, automações e soluções digitais
+          sob medida para empresas que querem escalar operações,
+          reduzir custos e crescer com eficiência.
         </p>
 
         <a href="#orcamento" className="hero-btn">
