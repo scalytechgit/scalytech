@@ -7,7 +7,7 @@ export default function Contact() {
 
   const [open, setOpen] = useState(false)
 
-  const whatsappNumber = '5531999999999'
+  const whatsappNumber = '5531991036536'
 
   const mensagem = encodeURIComponent(
     'Olá! Gostaria de conversar sobre um projeto com a Scalytech.'

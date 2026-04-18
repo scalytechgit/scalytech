@@ -107,7 +107,7 @@ export default function Pricing() {
 
             <div className="pricing-modal-actions">
               <a
-                href={`https://wa.me/5531999999999?text=Olá! Gostaria de solicitar um orçamento para o serviço: ${service.title}`}
+                href={`https://wa.me/5531991036536?text=Olá! Gostaria de solicitar um orçamento para o serviço: ${service.title}`}
                 target="_blank"
                 className="pricing-modal-btn pricing-whatsapp"
               >
