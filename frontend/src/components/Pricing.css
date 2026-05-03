@@ -130,6 +130,31 @@
   text-align: center;
 }
 
+/* PREÇO */
+
+.pricing-value {
+  font-size: 30px;
+  font-weight: 700;
+
+  background: linear-gradient(
+    90deg,
+    #3b82f6,
+    #22c55e
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-align: center;
+}
+
+.pricing-period {
+  font-size: 0.9rem;
+  color: var(--gray-400);
+  text-align: center;
+  margin-top: -8px;
+}
+
 /* descrição */
 
 .modal-desc {

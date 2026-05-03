@@ -6,35 +6,43 @@ export default function Services() {
   const services = [
     {
       title: 'Sistemas Inteligentes / SaaS',
-      desc: 'Desenvolvemos plataformas web corporativas e soluções SaaS escaláveis, otimizando processos internos e operações de empresas.'
+      desc: 'Desenvolvemos plataformas web corporativas e soluções SaaS escaláveis, otimizando processos internos e operações de empresas.',
+      preco: 'testeSaaS'
     },
     {
       title: 'Automação de Processos',
-      desc: 'Automatizamos tarefas repetitivas, integrações entre sistemas e fluxos de trabalho, garantindo eficiência e redução de erros.'
+      desc: 'Automatizamos tarefas repetitivas, integrações entre sistemas e fluxos de trabalho, garantindo eficiência e redução de erros.',
+      preco: ''
     },
     {
       title: 'Integrações de APIs',
-      desc: 'Conectamos sistemas e plataformas para troca de dados em tempo real e integração inteligente entre diferentes ferramentas.'
+      desc: 'Conectamos sistemas e plataformas para troca de dados em tempo real e integração inteligente entre diferentes ferramentas.',
+      preco: ''
     },
     {
       title: 'Apps Mobile Corporativos',
-      desc: 'Criamos aplicativos mobile voltados para gestão de empresas, sistemas internos e controle de operações, integrados aos sistemas existentes.'
+      desc: 'Criamos aplicativos mobile voltados para gestão de empresas, sistemas internos e controle de operações, integrados aos sistemas existentes.',
+      preco: ''
     },
     {
       title: 'Extensões e Ferramentas Corporativas',
-      desc: 'Desenvolvemos extensões e dashboards personalizados, como ferramentas para Google Workspace e sistemas internos de produtividade.'
+      desc: 'Desenvolvemos extensões e dashboards personalizados, como ferramentas para Google Workspace e sistemas internos de produtividade.',
+      preco: ''
     },
     {
       title: 'Manutenção e Suporte',
-      desc: 'Oferecemos manutenção contínua, atualizações e suporte técnico para garantir a segurança e funcionamento dos sistemas.'
+      desc: 'Oferecemos manutenção contínua, atualizações e suporte técnico para garantir a segurança e funcionamento dos sistemas.',
+      preco: ''
     },
     {
-      title: 'Hospedagem e Deploy',
-      desc: 'Configuramos, publicamos e hospedamos seus sistemas, garantindo infraestrutura confiável e disponibilidade contínua.'
+      title: 'Sites Institucionais',
+      desc: 'Configuramos, publicamos e hospedamos seus sistemas, garantindo infraestrutura confiável e disponibilidade contínua.',
+      preco: ''
     },
     {
       title: 'SEO e Performance',
-      desc: 'Otimização de sistemas e plataformas para máxima performance, confiabilidade e experiência do usuário.'
+      desc: 'Otimização de sistemas e plataformas para máxima performance, confiabilidade e experiência do usuário.',
+      preco: 'teste'
     }
   ]
 
