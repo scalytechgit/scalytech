@@ -58,7 +58,7 @@ export default function Pricing() {
       title: 'Sites Institucionais',
       desc: 'Configuramos, publicamos e hospedamos seus sistemas, garantindo infraestrutura confiável e disponibilidade contína.',
       icon: <FaServer />,
-      img: `${base}assets/pricing/deploy.jpg`,
+      img: `${base}assets/pricing/institucional.jpeg`,
       preco: 'R$1500-R$20000'
     },
     {

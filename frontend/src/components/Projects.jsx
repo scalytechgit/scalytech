@@ -35,6 +35,12 @@ export default function Projects() {
       hoverTitle: 'Sistema Interno • Analytics',
       image: `${import.meta.env.BASE_URL}projects/project3/preview.jpg`,
       video: `${import.meta.env.BASE_URL}projects/project3/video.mp4`
+    },
+    {
+      title: 'ChatBot',
+      hoverTitle: 'Chat Bot • Empresarial',
+      image: `${import.meta.env.BASE_URL}public/projetos/images/chatbot.png`,
+      video: `${import.meta.env.BASE_URL}public/projetos/videos/chatbot.mp4`
     }
   ];
 
