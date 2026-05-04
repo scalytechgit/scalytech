@@ -21,9 +21,9 @@ export default function Hero() {
         </h1>
 
         <p>
-          Desenvolvemos sistemas, automações e soluções digitais
-          sob medida para empresas que querem escalar operações,
-          reduzir custos e crescer com eficiência.
+          Soluções digitais completas: sistemas sob medida, automações,
+           sites institucionais e landing pages. Reduza custos e escale
+            sua empresa com eficiência.
         </p>
 
         <a href="#orcamento" className="hero-btn">
