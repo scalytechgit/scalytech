@@ -31,12 +31,6 @@ export default function Projects() {
       video: `${import.meta.env.BASE_URL}projetos/videos/videoFIORDIFORNO.mp4`
     },
     {
-      title: 'Dashboard de Gestão',
-      hoverTitle: 'Sistema Interno • Analytics',
-      image: `${import.meta.env.BASE_URL}projects/project3/preview.jpg`,
-      video: `${import.meta.env.BASE_URL}projects/project3/video.mp4`
-    },
-    {
       title: 'ChatBot',
       hoverTitle: 'Chat Bot • Empresarial',
       image: `${import.meta.env.BASE_URL}projetos/images/chatbot.png`,
