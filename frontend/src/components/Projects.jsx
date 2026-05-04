@@ -27,7 +27,7 @@ export default function Projects() {
     {
       title: 'Site Institucional Pizzaria',
       hoverTitle: 'Site Institucional • E-commerce',
-      image: `${import.meta.env.BASE_URL}projetos/images/previewFIORDIFORNO.jpg`,
+      image: `${import.meta.env.BASE_URL}projetos/images/web-app.png`,
       video: `${import.meta.env.BASE_URL}projetos/videos/videoFIORDIFORNO.mp4`
     },
     {
