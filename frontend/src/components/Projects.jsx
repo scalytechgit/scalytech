@@ -21,8 +21,8 @@ export default function Projects() {
     {
       title: 'Plataforma SaaS Comercial',
       hoverTitle: 'Sistema Web • Automação Empresarial',
-      image: `${import.meta.env.BASE_URL}projects/project1/preview.jpg`,
-      video: `${import.meta.env.BASE_URL}projects/project1/video.mp4`
+      image: `${import.meta.env.BASE_URL}projetos/images/comercial_1.png`,
+      video: `${import.meta.env.BASE_URL}projetos/videos/comercial.mp4`
     },
     {
       title: 'Portal Institucional Moderno',
@@ -39,8 +39,8 @@ export default function Projects() {
     {
       title: 'ChatBot',
       hoverTitle: 'Chat Bot • Empresarial',
-      image: `${import.meta.env.BASE_URL}public/projetos/images/chatbot.png`,
-      video: `${import.meta.env.BASE_URL}public/projetos/videos/chatbot.mp4`
+      image: `${import.meta.env.BASE_URL}projetos/images/chatbot.png`,
+      video: `${import.meta.env.BASE_URL}projetos/videos/chatbot.mp4`
     }
   ];
 
