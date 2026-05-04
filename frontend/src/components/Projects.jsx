@@ -21,7 +21,7 @@ export default function Projects() {
     {
       title: 'Plataforma SaaS Comercial',
       hoverTitle: 'Sistema Web • Automação Empresarial',
-      image: `${import.meta.env.BASE_URL}projetos/images/comercial_1.png`,
+      image: `${import.meta.env.BASE_URL}projetos/images/comercial.png`,
       video: `${import.meta.env.BASE_URL}projetos/videos/comercial.mp4`
     },
     {
