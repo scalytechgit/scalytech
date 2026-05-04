@@ -19,16 +19,16 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'Plataforma SaaS Comercial',
-      hoverTitle: 'Sistema Web • Automação Empresarial',
+      title: 'Plataforma Comercial',
+      hoverTitle: 'E-commerce',
       image: `${import.meta.env.BASE_URL}projetos/images/comercial.png`,
       video: `${import.meta.env.BASE_URL}projetos/videos/comercial.mp4`
     },
     {
-      title: 'Portal Institucional Moderno',
-      hoverTitle: 'Website Corporativo • Alta Performance',
-      image: `${import.meta.env.BASE_URL}projects/project2/preview.jpg`,
-      video: `${import.meta.env.BASE_URL}projects/project2/video.mp4`
+      title: 'Site Institucional Pizzaria',
+      hoverTitle: 'Site Institucional • E-commerce',
+      image: `${import.meta.env.BASE_URL}projetos/images/previewFIORDIFORNO.jpg`,
+      video: `${import.meta.env.BASE_URL}projetos/videos/videoFIORDIFORNO.mp4`
     },
     {
       title: 'Dashboard de Gestão',
