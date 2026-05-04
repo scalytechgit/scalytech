@@ -14,9 +14,6 @@ const responses = {
 
   "Onde podemos ver trabalhos anteriores?":
     "Você pode conferir nossos projetos na seção 'Projetos' do site. Lá mostramos alguns dos sites, sistemas e soluções digitais que já desenvolvemos.",
-
-  "Quais planos a Scalytech oferece?":
-    "Oferecemos três categorias principais de projetos:\n\nSTART: Sites institucionais modernos para empresas que precisam iniciar presença digital.\n\nPRO: Sites profissionais completos com animações, SEO, identidade visual e otimização de performance.\n\nCUSTOM: Sistemas, plataformas e soluções digitais personalizadas com banco de dados e funcionalidades avançadas."
 };
 
 export default function ChatBot() {
