@@ -17,56 +17,48 @@ export default function Pricing() {
       desc: 'Desenvolvemos plataformas web corporativas e soluções SaaS escaláveis, otimizando processos internos e operações de empresas.',
       icon: <FaLaptopCode />,
       img: `${base}assets/pricing/saas.jpg`,
-      preco: 'R$5000-R$20000'
     },
     {
       title: 'Automação de Processos',
       desc: 'Automatizamos tarefas repetitivas, integrações entre sistemas e fluxos de trabalho, garantindo eficiência e redução de erros.',
       icon: <FaCogs />,
       img: `${base}assets/pricing/automacao.jpg`,
-      preco: 'R$2000-R$10000'
     },
     {
       title: 'Integrações de APIs',
       desc: 'Conectamos sistemas e plataformas para troca de dados em tempo real e integração inteligente entre diferentes ferramentas.',
       icon: <FaPlug />,
       img: `${base}assets/pricing/apis.jpg`,
-      preco: 'R$1000-R$5000'
     },
     {
       title: 'Apps Mobile',
       desc: 'Criamos aplicativos mobile voltados para gestão de empresas, sistemas internos e controle de operações, integrados aos sistemas existentes.',
       icon: <FaMobileAlt />,
       img: `${base}assets/pricing/apps.jpg`,
-      preco: 'R$10000-R$40000'
     },
     {
       title: 'Extensões e Ferramentas Corporativas',
       desc: 'Desenvolvemos extensões e dashboards personalizados, como ferramentas para Google Workspace e sistemas internos de produtividade.',
       icon: <FaProjectDiagram />,
       img: `${base}assets/pricing/extensoes.jpg`,
-      preco: 'R$2000-R$10000'
     },
     {
       title: 'Manutenção e Suporte',
       desc: 'Oferecemos manutenção contínua, atualizações e suporte técnico para garantir a segurança e funcionamento dos sistemas.',
       icon: <FaLifeRing />,
       img: `${base}assets/pricing/suporte.jpg`,
-      preco: 'R$300-R$2000'
     },
     {
       title: 'Sites Institucionais',
       desc: 'Configuramos, publicamos e hospedamos seus sistemas, garantindo infraestrutura confiável e disponibilidade contína.',
       icon: <FaServer />,
       img: `${base}assets/pricing/institucional.jpeg`,
-      preco: 'R$1500-R$20000'
     },
     {
       title: 'SEO e Performance',
       desc: 'Otimização de sistemas e plataformas para máxima performance, confiabilidade e experiência do usuário.',
       icon: <FaRocket />,
       img: `${base}assets/pricing/seo.jpg`,
-      preco: 'R$500-R$2000'
     }
   ]
 
@@ -112,7 +104,6 @@ export default function Pricing() {
             )}
 
             <p className="modal-desc">{service.desc}</p>
-            <p className="pricing-value"> {service.preco}</p>
             <div className="pricing-modal-actions">
               <a
                 href={`https://wa.me/5531991036536?text=Olá! Gostaria de solicitar um orçamento para o serviço: ${service.title}`}
