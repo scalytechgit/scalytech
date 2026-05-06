@@ -33,7 +33,7 @@ export default function Projects() {
     {
       title: 'ChatBot',
       hoverTitle: 'Chat Bot • Empresarial',
-      image: `${import.meta.env.BASE_URL}projetos/images/chatbot.png`,
+      image: `${import.meta.env.BASE_URL}projetos/images/chatbot.jpg`,
       video: `${import.meta.env.BASE_URL}projetos/videos/chatbot.mp4`
     }
   ];
