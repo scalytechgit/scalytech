@@ -65,7 +65,8 @@ export default function Pricing() {
   return (
     <section className="pricing" id="orcamento">
 
-      <h2>O que sua empresa precisa?</h2>
+      <h2>Solicite um orçamento<h3>Do que sua empresa precisa?</h3></h2>
+      
 
       <div className="services-budget-grid">
         {services.map((item, index) => (
