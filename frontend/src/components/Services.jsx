@@ -34,11 +34,6 @@ export default function Services() {
       preco: ''
     },
     {
-      title: 'Sites Institucionais',
-      desc: 'Configuramos, publicamos e hospedamos seus sistemas, garantindo infraestrutura confiável e disponibilidade contínua.',
-      preco: ''
-    },
-    {
       title: 'SEO e Performance',
       desc: 'Otimização de sistemas e plataformas para máxima performance, confiabilidade e experiência do usuário.',
       preco: 'teste'
