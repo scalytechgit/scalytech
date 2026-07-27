@@ -49,12 +49,6 @@ export default function Pricing() {
       img: `${base}assets/pricing/suporte.jpg`,
     },
     {
-      title: 'Sites Institucionais',
-      desc: 'Configuramos, publicamos e hospedamos seus sistemas, garantindo infraestrutura confiável e disponibilidade contína.',
-      icon: <FaServer />,
-      img: `${base}assets/pricing/institucional.jpeg`,
-    },
-    {
       title: 'SEO e Performance',
       desc: 'Otimização de sistemas e plataformas para máxima performance, confiabilidade e experiência do usuário.',
       icon: <FaRocket />,
