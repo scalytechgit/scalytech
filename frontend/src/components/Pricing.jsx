@@ -65,6 +65,7 @@ export default function Pricing() {
   return (
     <section className="pricing" id="orcamento">
 
+      <span className="eyebrow">orçamento</span>
       <h2>Solicite um orçamento<h3>Do que sua empresa precisa?</h3></h2>
       
 

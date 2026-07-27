@@ -46,6 +46,7 @@ export default function Testimonials() {
 
   return (
     <section className="testimonials" id="avaliacoes-clientes">
+      <span className="eyebrow">prova social</span>
       <h2>O que nossos clientes dizem</h2>
 
       <div className="testimonials-carousel">

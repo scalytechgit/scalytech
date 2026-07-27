@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
 
   opacity: 0;
   transform: translateY(40px);
@@ -16,34 +17,44 @@
   transform: translateY(0);
 }
 
-.hero-content {
-  max-width: 720px;
+/* Glow ambiente sutil atrás do conteúdo */
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  width: 560px;
+  height: 560px;
+
+  background: radial-gradient(
+    circle,
+    rgba(59,130,246,0.10),
+    transparent 70%
+  );
+
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
-/* TAG SUPERIOR */
-
-.hero-tag {
-  color: var(--gray-500);
-  letter-spacing: 3px;
-  font-size: 0.75rem;
+.hero-content {
+  max-width: 720px;
+  position: relative;
+  z-index: 1;
 }
 
 /* TITULO */
 
 .hero h1 {
   font-size: 3.6rem;
-  margin: 20px 0;
-  line-height: 1.1;
+  margin: 22px 0;
+  line-height: 1.12;
 }
 
 /* GRADIENTE SCALYTECH */
 
 .hero h1 span {
-  background: linear-gradient(
-    90deg,
-    #3b82f6,
-    #22c55e
-  );
+  background: var(--brand-gradient);
 
   -webkit-background-clip: text;
   background-clip: text;
@@ -59,7 +70,15 @@
   line-height: 1.6;
 }
 
-/* BOTÃO */
+/* AÇÕES */
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* BOTÃO PRIMÁRIO */
 
 .hero-btn {
   display: inline-flex;
@@ -72,14 +91,11 @@
   border-radius: 8px;
 
   text-decoration: none;
+  font-weight: 600;
 
-  color: white;
+  color: var(--gray-950);
 
-  background: linear-gradient(
-    90deg,
-    #3b82f6,
-    #22c55e
-  );
+  background: var(--brand-gradient);
 
   transition: var(--transition-fast);
 }
@@ -89,24 +105,33 @@
 
   box-shadow:
     0 8px 20px rgba(59,130,246,0.3),
-    0 8px 20px rgba(34,197,94,0.2);
+    0 8px 20px rgba(52,211,153,0.2);
 }
 
-/* LINHA DECORATIVA */
+/* BOTÃO SECUNDÁRIO */
 
-.hero-rgb-line {
-  position: absolute;
-  bottom: 40px;
-  left: 8%;
+.hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-  width: 120px;
-  height: 3px;
+  min-height: 48px;
+  padding: 14px 26px;
 
-  background: linear-gradient(
-    90deg,
-    #3b82f6,
-    #22c55e
-  );
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+
+  color: var(--gray-300);
+
+  transition: var(--transition-fast);
+}
+
+.hero-btn-secondary:hover {
+  border-color: var(--brand-teal);
+  color: var(--brand-ink);
 }
 
 /* RESPONSIVO */
@@ -119,9 +144,9 @@
     align-items: flex-start;
   }
 
-  .hero-tag {
-    letter-spacing: 2px;
-    font-size: 0.7rem;
+  .hero::before {
+    width: 320px;
+    height: 320px;
   }
 
   .hero h1 {
@@ -134,14 +159,17 @@
     margin-bottom: 28px;
   }
 
-  .hero-btn {
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
     width: 100%;
-    max-width: 320px;
   }
 
-  .hero-rgb-line {
-    bottom: 28px;
-    width: 88px;
+  .hero-btn,
+  .hero-btn-secondary {
+    width: 100%;
+    max-width: 320px;
   }
 
 }

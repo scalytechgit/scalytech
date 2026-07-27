@@ -1,10 +1,11 @@
 body {
   background:
-    radial-gradient(circle at 20% 20%, rgba(59,130,246,0.08), transparent 40%),
-    radial-gradient(circle at 80% 70%, rgba(34,197,94,0.08), transparent 40%),
+    linear-gradient(rgba(59,130,246,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59,130,246,0.035) 1px, transparent 1px),
     var(--gray-950);
+  background-size: 56px 56px, 56px 56px, auto;
 
-  color: var(--gray-300);
+  color: var(--gray-400);
   font-family: var(--font-main);
   line-height: 1.6;
 }
@@ -20,13 +21,34 @@ main {
   padding: 0 8%;
 }
 
+/* Eyebrow / tag estilo terminal */
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--brand-amber);
+}
+
+.eyebrow::before {
+  content: '>';
+  color: var(--brand-teal);
+}
+
 /* Títulos */
 
 h1,
 h2,
 h3 {
+  font-family: var(--font-display);
   font-weight: 600;
-  color: var(--white);
+  color: var(--brand-ink);
+  letter-spacing: -0.01em;
 }
 
 h1 {
@@ -76,12 +98,32 @@ section {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--brand-blue);
+  background: var(--brand-amber);
 }
 
 /* Seleção de texto */
 
 ::selection {
-  background: var(--brand-blue);
-  color: var(--white);
+  background: var(--brand-amber);
+  color: var(--gray-950);
+}
+
+/* Foco visível (acessibilidade) */
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--brand-teal);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -8,26 +8,31 @@
   --white: #ffffff;
 
   /* =========================
-     Neutros (tema escuro)
+     Neutros (grafite — tema escuro)
   ========================= */
 
-  --gray-950: #050505;
-  --gray-900: #0f0f0f;
-  --gray-800: #1a1a1a;
-  --gray-700: #2a2a2a;
-  --gray-600: #3a3a3a;
-  --gray-500: #777777;
-  --gray-300: #cfcfcf;
+  --gray-950: #0a0b0d;
+  --gray-900: #101216;
+  --gray-800: #171a20;
+  --gray-700: #23262e;
+  --gray-600: #33373f;
+  --gray-500: #8a8f98;
+  --gray-400: #a8adb6;
+  --gray-300: #c7cbd1;
 
   /* =========================
      Cores da Marca (Scalytech)
+     Azul de tecnologia/confiança + verde de crescimento/escala
+     (conforme manual de identidade visual)
   ========================= */
 
-  --brand-blue: #3b82f6;
-  --brand-blue-dark: #2563eb;
+  --brand-amber: #3b82f6;
+  --brand-amber-dark: #2563eb;
 
-  --brand-green: #22c55e;
-  --brand-green-dark: #16a34a;
+  --brand-teal: #34d399;
+  --brand-teal-dark: #10b981;
+
+  --brand-ink: #e8ecf1;
 
   /* =========================
      Gradientes da Marca
@@ -35,21 +40,23 @@
 
   --brand-gradient: linear-gradient(
     90deg,
-    var(--brand-blue),
-    var(--brand-green)
+    var(--brand-amber),
+    var(--brand-teal)
   );
 
   --brand-gradient-soft: linear-gradient(
     135deg,
-    rgba(59,130,246,0.15),
-    rgba(34,197,94,0.15)
+    rgba(59,130,246,0.12),
+    rgba(52,211,153,0.12)
   );
 
   /* =========================
      Tipografia
   ========================= */
 
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
   --font-main: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
   /* =========================
      Transições

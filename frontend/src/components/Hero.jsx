@@ -13,26 +13,29 @@ export default function Hero() {
 
       <div className="hero-content">
 
-        <span className="hero-tag">SCALYTECH • SOLUÇÕES TECNOLÓGICAS</span>
+        <span className="eyebrow">scalytech / engenharia de software</span>
 
         <h1>
-          Tecnologia que automatiza,<br />
-          <span>cresce e escala.</span>
+          Sistemas que rodam sozinhos,<br />
+          <span>enquanto sua empresa cresce.</span>
         </h1>
 
         <p>
-          Soluções digitais completas: sistemas sob medida, automações,
-           sites institucionais e landing pages. Reduza custos e escale
-            sua empresa com eficiência.
+          Construímos sistemas sob medida, automações e integrações que tiram
+          trabalho manual da sua operação. Menos retrabalho, mais tempo para
+          o que importa.
         </p>
 
-        <a href="#orcamento" className="hero-btn">
-          Solicitar orçamento
-        </a>
+        <div className="hero-actions">
+          <a href="#orcamento" className="hero-btn">
+            Solicitar orçamento
+          </a>
+          <a href="#projects" className="hero-btn-secondary">
+            Ver projetos
+          </a>
+        </div>
 
       </div>
-
-      <div className="hero-rgb-line"></div>
 
     </section>
   )

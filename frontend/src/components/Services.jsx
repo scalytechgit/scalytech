@@ -1,5 +1,4 @@
 import './Services.css'
-import RGBLine from './RGBLine'
 
 export default function Services() {
 
@@ -50,18 +49,18 @@ export default function Services() {
     <section className="services" id="services">
 
       <div className="services-header">
+        <span className="eyebrow">o que fazemos</span>
         <h2>Nossos Serviços</h2>
 
         <p>
           Soluções tecnológicas pensadas para automatizar, escalar e tornar sua operação mais eficiente.
         </p>
-
-        <RGBLine width={160} />
       </div>
 
       <div className="services-grid">
         {services.map((service, index) => (
           <div className="service-card" key={index}>
+            <span className="service-index">{String(index + 1).padStart(2, '0')}</span>
             <h3>{service.title}</h3>
             <p>{service.desc}</p>
           </div>

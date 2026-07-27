@@ -114,6 +114,7 @@ export default function Projects() {
 
   return (
     <section className="projects" id="projects">
+      <span className="eyebrow">trabalhos entregues</span>
       <h2>Projetos</h2>
 
       <div className="carousel">

@@ -2,6 +2,11 @@
   padding: 120px 8%;
 }
 
+.testimonials .eyebrow {
+  display: block;
+  margin-bottom: 14px;
+}
+
 .testimonials h2 {
   margin-bottom: 60px;
   text-align: left;
@@ -28,7 +33,7 @@
   min-height: 220px;
   background: var(--gray-900);
   border: 1px solid var(--gray-800);
-  border-radius: 20px;
+  border-radius: 6px;
   padding: 32px;
 
   display: flex;
@@ -42,7 +47,7 @@
 }
 
 .testimonial-card:hover {
-  border-color: var(--brand-blue);
+  border-color: var(--brand-amber);
   transform: translateY(-6px);
   box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
@@ -50,7 +55,7 @@
 /* ⭐ ESTRELAS */
 
 .stars {
-  color: var(--brand-green);
+  color: var(--brand-teal);
   font-size: 1.1rem;
   letter-spacing: 3px;
 }

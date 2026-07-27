@@ -65,8 +65,8 @@
 /* Mensagem usuário */
 
 .msg.user {
-  background: var(--brand-blue);
-  color: var(--white);
+  background: var(--brand-amber);
+  color: var(--gray-950);
   align-self: flex-end;
 }
 
@@ -103,5 +103,5 @@
 
 .chatbot-options button:hover {
   background: var(--brand-gradient);
-  color: var(--white);
+  color: var(--gray-950);
 }

@@ -4,6 +4,11 @@
   position: relative;
 }
 
+.projects .eyebrow {
+  display: block;
+  margin-bottom: 16px;
+}
+
 .projects h2 {
   font-size: 3rem;
   margin-bottom: 100px;
@@ -38,7 +43,7 @@
   background: var(--gray-900);
   border: 1px solid var(--gray-800);
 
-  border-radius: 20px;
+  border-radius: 6px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -68,7 +73,7 @@
   box-shadow:
     0 30px 60px rgba(0, 0, 0, 0.6),
     0 0 40px rgba(59,130,246,0.25),
-    0 0 30px rgba(34,197,94,0.2);
+    0 0 30px rgba(52,211,153,0.2);
 }
 
 /* ===== OVERLAY ===== */
@@ -80,7 +85,7 @@
   background: linear-gradient(
     120deg,
     rgba(59,130,246,0.95),
-    rgba(34,197,94,0.95)
+    rgba(52,211,153,0.95)
   );
 
   display: flex;
@@ -181,7 +186,7 @@
   .project-card {
     width: min(320px, 84vw);
     height: 210px;
-    border-radius: 16px;
+    border-radius: 6px;
   }
 
   .project-overlay span {
@@ -277,7 +282,7 @@
   height: 42px;
 
   border: 4px solid rgba(255,255,255,0.25);
-  border-top: 4px solid #22c55e;
+  border-top: 4px solid var(--brand-teal);
 
   border-radius: 50%;
 

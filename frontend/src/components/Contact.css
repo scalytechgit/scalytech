@@ -23,8 +23,8 @@
   border: none;
   border-radius: 12px;
 
-  background: linear-gradient(90deg, #2563eb, #06b6d4, #22c55e);
-  color: #fff;
+  background: var(--brand-gradient);
+  color: var(--gray-950);
 
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -39,7 +39,7 @@
 .contact-button:hover {
   transform: translateY(-2px);
   filter: brightness(1.08);
-  box-shadow: 0 10px 25px rgba(6,182,212,0.25);
+  box-shadow: 0 10px 25px rgba(52,211,153,0.25);
 }
 
 .contact-button:active {
@@ -109,9 +109,9 @@
 
 /* MODAL */
 .contact-modal {
-  background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
-  border: 1px solid #222;
-  border-radius: 18px;
+  background: linear-gradient(145deg, var(--gray-900), var(--gray-800));
+  border: 1px solid var(--gray-700);
+  border-radius: 4px;
 
   width: 100%;
   max-width: 380px;
@@ -165,20 +165,20 @@
 
 /* WHATSAPP */
 .whatsapp {
-  background: linear-gradient(90deg, #2563eb, #06b6d4, #22c55e);
-  color: #fff;
+  background: var(--brand-gradient);
+  color: var(--gray-950);
 }
 
 /* EMAIL */
 .gmail {
-  background: linear-gradient(90deg, #2563eb, #06b6d4, #22c55e);
-  color: #fff;
+  background: var(--brand-gradient);
+  color: var(--gray-950);
 }
 
 .contact-modal-btn:hover {
   transform: translateY(-2px);
   filter: brightness(1.1);
-  box-shadow: 0 8px 20px rgba(6,182,212,0.25);
+  box-shadow: 0 8px 20px rgba(52,211,153,0.25);
 }
 
 /* FECHAR */
